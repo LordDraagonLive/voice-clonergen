@@ -1,0 +1,197 @@
+:root {
+  color: #16211c;
+  background: #f7f8f3;
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+main {
+  width: min(1180px, calc(100% - 32px));
+  margin: 0 auto;
+  padding: 28px 0 48px;
+}
+
+header {
+  margin-bottom: 24px;
+}
+
+h1,
+h2,
+p {
+  margin-top: 0;
+}
+
+h1 {
+  font-size: 32px;
+  margin-bottom: 6px;
+}
+
+h2 {
+  font-size: 18px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 16px;
+}
+
+.panel,
+article {
+  background: #ffffff;
+  border: 1px solid #d9ded4;
+  border-radius: 8px;
+  padding: 16px;
+}
+
+form {
+  display: grid;
+  gap: 10px;
+}
+
+input,
+textarea,
+select,
+button {
+  width: 100%;
+  border: 1px solid #c9d0c3;
+  border-radius: 6px;
+  padding: 10px 12px;
+  font: inherit;
+}
+
+textarea {
+  min-height: 84px;
+  resize: vertical;
+}
+
+button {
+  background: #1f6f54;
+  border-color: #1f6f54;
+  color: #ffffff;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+button:disabled {
+  background: #8c9891;
+  border-color: #8c9891;
+  cursor: not-allowed;
+}
+
+.checkbox {
+  display: grid;
+  grid-template-columns: 18px 1fr;
+  gap: 8px;
+  align-items: start;
+  font-size: 14px;
+}
+
+.checkbox input {
+  width: 18px;
+  margin-top: 2px;
+}
+
+.muted {
+  color: #66736b;
+  font-size: 13px;
+  margin: 0;
+}
+
+.samples {
+  display: grid;
+  gap: 8px;
+}
+
+.sample {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 6px;
+  padding: 8px;
+  border: 1px solid #d9ded4;
+  border-radius: 6px;
+  background: #f9faf7;
+  font-size: 13px;
+}
+
+.sample.ready {
+  border-color: #8fc9aa;
+  background: #eef8f2;
+}
+
+.sample.failed {
+  border-color: #d99a9a;
+  background: #fff1f1;
+}
+
+.sample.not-usable {
+  border-color: #d9c98c;
+  background: #fff9df;
+}
+
+.job.running,
+.job.pending {
+  border-color: #c9bb7b;
+  background: #fff9df;
+}
+
+.job.completed {
+  border-color: #8fc9aa;
+  background: #eef8f2;
+}
+
+.job.failed {
+  border-color: #d99a9a;
+  background: #fff1f1;
+}
+
+.sample p {
+  grid-column: 1 / -1;
+  margin: 0;
+  color: #8a2e2e;
+}
+
+.error {
+  color: #8a2e2e;
+}
+
+.progress {
+  color: #596454;
+  font-size: 13px;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+.notice {
+  margin: 18px 0;
+  padding: 12px;
+  background: #e7f3ee;
+  border: 1px solid #b8dccf;
+  border-radius: 8px;
+}
+
+.list {
+  display: grid;
+  gap: 10px;
+}
+
+article {
+  display: grid;
+  gap: 6px;
+}
+
+article span {
+  color: #52635a;
+  font-size: 13px;
+}
+
+audio {
+  width: 100%;
+}
