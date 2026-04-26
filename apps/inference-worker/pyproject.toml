@@ -1,0 +1,36 @@
+[project]
+name = "personal-voice-cloner-worker"
+version = "0.1.0"
+description = "Python GPU inference worker for personal voice cloning"
+requires-python = ">=3.11"
+dependencies = [
+  "numpy>=1.26",
+  "soundfile>=0.12",
+  "librosa>=0.10",
+  "psycopg[binary]>=3.2",
+  "redis>=5.0",
+  "pydantic-settings>=2.0"
+]
+
+[project.optional-dependencies]
+gpu = [
+  "torch",
+  "torchaudio"
+]
+qwen = [
+  "qwen-tts==0.1.1"
+]
+xtts = [
+  "TTS>=0.22.0"
+]
+
+[tool.ruff]
+line-length = 100
+
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["src*"]
