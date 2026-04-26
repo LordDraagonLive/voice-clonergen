@@ -1,0 +1,76 @@
+HelagenHQ Source-Available License
+Version 1.0
+
+Copyright (c) 2026 HelagenHQ.com and the personal-voice-cloner contributors.
+All rights reserved except as expressly granted below.
+
+1. Purpose
+
+This project is made publicly viewable for transparency, review, learning, and
+collaboration. It is not open source under the Open Source Definition, and it is
+not released under a permissive license such as MIT, Apache-2.0, or BSD.
+
+2. Permission Granted
+
+You may view, clone, and run this software for personal evaluation,
+non-commercial research, and private experimentation, provided that you comply
+with this license and all applicable laws.
+
+You may make private modifications for your own evaluation or personal use.
+
+3. Attribution Requirement
+
+If you use, reference, demonstrate, publish about, or build upon this project,
+you must provide clear attribution to:
+
+  HelagenHQ.com
+
+Attribution must be reasonably visible in documentation, project credits, user
+interfaces, demos, publications, or other materials where the use or derivative
+work is presented.
+
+4. Restrictions
+
+You may not, without prior written permission from HelagenHQ.com:
+
+- redistribute this software or substantial portions of it;
+- publish, sublicense, sell, rent, lease, host, or provide this software as a
+  public or commercial service;
+- use this software or derivatives of it for commercial purposes;
+- remove or obscure copyright, license, attribution, or safety notices;
+- use this software for impersonation, deception, unauthorized voice cloning,
+  identity abuse, or cloning voices without ownership or explicit permission;
+- use this software in a way that violates applicable law or the rights of
+  another person.
+
+5. Voice Consent and Safety
+
+This project is intended only for consent-based personal voice cloning. Any use
+of this software must be limited to voices that you own or have explicit
+permission to use. You are responsible for obtaining and retaining appropriate
+consent.
+
+6. Third-Party Components
+
+This license applies only to this project's original source code, documentation,
+configuration, and related materials. Third-party dependencies, models,
+datasets, packages, and services are governed by their own licenses and terms.
+You are responsible for reviewing and complying with those terms.
+
+7. No Warranty
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY, FITNESS FOR
+A PARTICULAR PURPOSE, NON-INFRINGEMENT, SECURITY, OR RELIABILITY. USE OF THIS
+SOFTWARE IS AT YOUR OWN RISK.
+
+8. Limitation of Liability
+
+TO THE MAXIMUM EXTENT PERMITTED BY LAW, HELAGENHQ.COM, THE COPYRIGHT HOLDERS,
+AND CONTRIBUTORS SHALL NOT BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY
+ARISING FROM OR RELATED TO THE SOFTWARE OR ITS USE.
+
+9. Permission Requests
+
+For commercial use, redistribution, hosting, sublicensing, or other uses not
+expressly allowed by this license, contact HelagenHQ.com for written permission.
